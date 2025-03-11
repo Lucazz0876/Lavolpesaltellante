@@ -1,0 +1,97 @@
+/* Impostazioni generali */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Contenitore centrale */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header span {
+    color: #ff6347;
+}
+
+header .slogan {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Sezione Gioco */
+#game-description {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#game-description h2 {
+    font-size: 2.5em;
+    color: #2d2d2d;
+}
+
+#game-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Sezione Download */
+#download {
+    background-color: #ff6347;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#download h2 {
+    font-size: 2.5em;
+    color: white;
+}
+
+#download p {
+    font-size: 1.2em;
+    color: white;
+}
+
+.download-btn {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
